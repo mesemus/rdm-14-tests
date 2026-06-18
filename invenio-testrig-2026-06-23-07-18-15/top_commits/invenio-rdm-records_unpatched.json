@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "201bdaeb",
+    "message": "iiif: fix: logging without reserved filename key"
+  },
+  {
+    "hash": "290ecc45",
+    "message": "fix(ui): use SECURITY_LOGIN_URL in restricted files login link"
+  },
+  {
+    "hash": "be6cd2c8",
+    "message": "fix(requests): expose record version in expanded topic"
+  },
+  {
+    "hash": "fb060cc1",
+    "message": "feat(auditlog): Add audit logs for file create/delete"
+  },
+  {
+    "hash": "2a7e52be",
+    "message": "release: v33.0.0"
+  },
+  {
+    "hash": "b41597b9",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "6094a4d6",
+    "message": "release: v32.0.1"
+  },
+  {
+    "hash": "2f5090c8",
+    "message": "fix(get_record_requests): allow anonymous users to access landing page"
+  },
+  {
+    "hash": "06f2d59b",
+    "message": "chore(git-blame): ignore the SPDX license header commit"
+  },
+  {
+    "hash": "ddc1072d",
+    "message": "chore(licenses): update license headers to use SPDX"
+  },
+  {
+    "hash": "c72c2953",
+    "message": "release: v32.0.0"
+  },
+  {
+    "hash": "0102e529",
+    "message": "feat(RecordCommunitiesService): Add get_record_requests service method   * Moved from invenio_app_rdm/records_ui/views/records.py   * Since the function checks for permissions and also access the API layer, it should be a service method following the existing methods in this service class also accessing the communities API"
+  },
+  {
+    "hash": "f636c8e2",
+    "message": "alembic: create record_id index in rdm_parents_community   * update the CommunityRelationMixin which the RDMParentCommunity inherits from, to have `index=True` on record_id"
+  },
+  {
+    "hash": "fb1d4cc2",
+    "message": "refactor(models): Move CommunityRelationMixin from invenio-communities"
+  },
+  {
+    "hash": "fe1ed1cd",
+    "message": "fix(CreatibutorsField): Mount CreatibutorsModal only when opened   * This change fixes the Creator/Contributor section in the deposit form where every CreatibutorsFieldItem unconditionally rendered a CreatibutorsModal, and inside each modal the Formik instance with enableReinitialize and a Yup schema instantiated at class-definition time for each author/creator, which led to every stroke triggering a redraw and re-mount for all the modals"
+  },
+  {
+    "hash": "3871cfac",
+    "message": "fix(signposting): serialize typed link w/ profile for described_by and item"
+  },
+  {
+    "hash": "535f41e8",
+    "message": "add test"
+  },
+  {
+    "hash": "998e53bd",
+    "message": "fix malformed link header"
+  },
+  {
+    "hash": "21c9d3c0",
+    "message": "release: v31.0.0"
+  },
+  {
+    "hash": "9752e82f",
+    "message": "feat(reviews): per-record-version unit tests"
+  },
+  {
+    "hash": "bf24dad0",
+    "message": "feat(reviews): per-record-version service/api changes"
+  },
+  {
+    "hash": "c58c86d2",
+    "message": "feat(reviews): per-record-version data model changes"
+  },
+  {
+    "hash": "93cabdea",
+    "message": "feat(reviews): add config for record version review policy"
+  },
+  {
+    "hash": "0fba06de",
+    "message": "release: v30.0.0"
+  },
+  {
+    "hash": "1a7b59eb",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "1ad89061",
+    "message": "fix: update test_crossref_serializer.py"
+  },
+  {
+    "hash": "a331a35d",
+    "message": "fix: crossref_xml test"
+  },
+  {
+    "hash": "2394b53a",
+    "message": "fix: parent PID registration fragility"
+  },
+  {
+    "hash": "e66b71a3",
+    "message": "feat: add Crossref PID provider"
+  },
+  {
+    "hash": "49288449",
+    "message": "feat: more flexible prefix handling in DataCite PID Provider"
+  },
+  {
+    "hash": "ca716000",
+    "message": "chore: update commonmeta-py dependency"
+  },
+  {
+    "hash": "c3ac9884",
+    "message": "fix(schema): use SanitizedUnicode for date description"
+  },
+  {
+    "hash": "60d53cdd",
+    "message": "feat: added overridable blocks to community search header"
+  },
+  {
+    "hash": "c19558c7",
+    "message": "fix: make community header accept apiConfigs prop"
+  },
+  {
+    "hash": "05376f99",
+    "message": "tests: fix failing tests"
+  },
+  {
+    "hash": "5d081bc3",
+    "message": "i18n: update string formater"
+  },
+  {
+    "hash": "f0b93253",
+    "message": "fix: fixed confusing feedback message when preview fails due to validation errors"
+  },
+  {
+    "hash": "e4d874de",
+    "message": "fix: file not possible to delete if it fails between operations * if file upload fails for example on commit, it is not possible to * remove it from the UI by clicking on trash can"
+  },
+  {
+    "hash": "dbb001d8",
+    "message": "release: v29.0.0"
+  },
+  {
+    "hash": "3b82c29c",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "cc8e6991",
+    "message": "feat: passing extra arguments to _get_record"
+  },
+  {
+    "hash": "28867d0d",
+    "message": "fix: alembic migrations"
+  },
+  {
+    "hash": "3487e2fb",
+    "message": "refactor(policy): apply SameAs"
+  },
+  {
+    "hash": "36200fa6",
+    "message": "feat: Using SameAs generator for dynamic binding of permissions"
+  },
+  {
+    "hash": "7a653cb2",
+    "message": "chore(tests): use db fixture from pytest-invenio"
+  },
+  {
+    "hash": "34b629a7",
+    "message": "feat: Support for ZIP extraction"
+  },
+  {
+    "hash": "00d63a09",
+    "message": "UI: reorder menu in user settings"
+  },
+  {
+    "hash": "00ece822",
+    "message": "feat(stats): allow excluding file download stats from previewer"
+  },
+  {
+    "hash": "5eb09d81",
+    "message": "fix: make community modal on deposit form close"
+  },
+  {
+    "hash": "cc794aca",
+    "message": "fix(vcs): extract license ID when returning"
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "dependencies": [],
+  "package": {
+    "github_entry": {
+      "_extra": {},
+      "default_branch": null,
+      "exclude": [
+        "invenio-xrootd",
+        "invenio-swh"
+      ],
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "include": [
+        "invenio-.*",
+        "pytest-invenio",
+        "citeproc-py-styles"
+      ],
+      "install": [],
+      "org": "inveniosoftware",
+      "package_map": {},
+      "slow_packages": {
+        "invenio-rdm-records": [
+          "tests/resources/test_iiif_image_api.py",
+          "tests/resources/test_resources_review.py",
+          "tests/services/test_rdm_service.py"
+        ]
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "1.0.2",
+      "base": null,
+      "branch": "v1.0.2",
+      "commit": "77e5549a8c905b58908e6314508ea9e0336cb3c7",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-queues",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-queues"
+    },
+    "unpatched_reference": {
+      "actual_version": "1.0.3",
+      "base": null,
+      "branch": null,
+      "commit": "4d8a97c10fd3d3fb17d66ac518ca91cbe6e8ddd4",
+      "commits_from_version": [
+        "70e80dbc2c3c023e176db01bff352570b095e8ef",
+        "8e6b8957ecbc3dadbfffd189088f5ef873b5cc10",
+        "fecacd8b3a5a52604014c783731c4d42db4042b8",
+        "f5a67003c09c1fdaf95cbb57f42a365ee5b9d3ff",
+        "f5609bd387225124ae92974ee366b172c81b2076",
+        "d850b5136cce2d496dbbb3863dfd58abd20e4a49",
+        "09596b1a08f4b4ac7f113a7797b1385f1dcc57e4",
+        "99dd08c76d3d861e45166fdc6a220ab96e021d80",
+        "36037cbf17c0cb4efa45859e4afe25f8968a95f6",
+        "30bb28196db4199b8827c0e96e9852aba0a0b9fd",
+        "608eaad6ee28d496b4cf0e6137c75d36052735a9",
+        "1dd9112d7c5fe72a428c86f21f6d02cdb0595921",
+        "39cb2581c6f0a3caf4cf8b8b299f01a16007636a",
+        "59b265654dd1443972f3a84457ae1349a3d43d2f",
+        "37268a528814c420ed19acc6bdbbae878cc8e486",
+        "762959390e8e0279d2fdbee83f82b38af4cf351d",
+        "665120ee469bb264331726126b609ec733c78980",
+        "5ffaaaf26b516d806c2709ba4bb7f076515e0af9",
+        "66658b55477effaad28a078a08ef8b418e7db7d4",
+        "133d6bf8cc50423bd90f5942dc283ce728b86624",
+        "3cb8845d3a82c2cd57daa0a35e7c56d7e623ad9d",
+        "9ea792a993eefaf74f21408b53809a5e2e120144",
+        "ef9601cefdab6b10992888e277de7dc7eb7ea3aa",
+        "9433617d0ac76eef1862026d93da09d9af8b0d45",
+        "9a9a6029815c1f5b4b01af9b693847a2fa7f2396",
+        "86f301555796870209ac58d22b6194b14ebad9fb",
+        "b6df74f8e5fa2fbc3fab054c6f6e0e827e152c91",
+        "b8774e400a7c1eddb670d963c703cd5e87df1797",
+        "d136e3a23f14d96ad42292dc2c436235abb2f67b",
+        "c6724b8ffa5b274efd9c1134f86865d0ca98c899",
+        "2db4a5da3fe8b4d1cd2cf711dfe34066df4037d5",
+        "7841a3c7223aaaca4940e7dbefd563281cc037bb",
+        "95195374e6817537799bda3a6c4a2047e4862b5a",
+        "9ec5c38e46eee0e51b53ffbccd94d9cfe3a1d1f9",
+        "19917a3b33616785dc415ba7fe1c05c0ded164d0",
+        "fa62259360cf72179b5c11ad24e13c3e8e3117a1",
+        "1c5e091e5360ba000498750c1d6e13801d4f124e",
+        "9c92ccca6c98087f08cd734ad83daf12b8fca2b9",
+        "019e40d58ff1de0f4e7d8994be91652628e1138b",
+        "8cd8a89db69d9adccad1842e521317003b4b9be0",
+        "c77172c2b63f4beba8246245a8a3ac10602b1cf7",
+        "7575ebc02a50d146a28f57378c37e07d2f966c61",
+        "ff5ad4b0bce039dbfbfae6181f864e2d9440d89f",
+        "22717348c520486d4f021a8c4bd325cab48a4aa4",
+        "d551a68b5c1c8593089735ca22e7fac86bf3c3f0",
+        "77e5549a8c905b58908e6314508ea9e0336cb3c7",
+        "7ec1c68c2a3461c4aab71650252b47e86d2cc896",
+        "8e125da2b7047801264fbb3e4166680da903bb3f",
+        "e73de14eb94a31612afeca4c5ffeeb1b3e57ad23",
+        "1fd87ffee053e3875477d72994565b05aa423730",
+        "4d8a97c10fd3d3fb17d66ac518ca91cbe6e8ddd4"
+      ],
+      "org": "inveniosoftware",
+      "package": "invenio-queues",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-queues"
+    }
+  },
+  "status": "success"
+}

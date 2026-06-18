@@ -1,0 +1,92 @@
+{
+  "dependencies": [],
+  "package": {
+    "github_entry": {
+      "_extra": {},
+      "default_branch": null,
+      "exclude": [
+        "invenio-xrootd",
+        "invenio-swh"
+      ],
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "include": [
+        "invenio-.*",
+        "pytest-invenio",
+        "citeproc-py-styles"
+      ],
+      "install": [],
+      "org": "inveniosoftware",
+      "package_map": {},
+      "slow_packages": {
+        "invenio-rdm-records": [
+          "tests/resources/test_iiif_image_api.py",
+          "tests/resources/test_resources_review.py",
+          "tests/services/test_rdm_service.py"
+        ]
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "1.0.0",
+      "base": null,
+      "branch": "v1.0.0",
+      "commit": "682ff5570570aca7af43826c8cc31a93c375d3a7",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-sitemap",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-sitemap"
+    },
+    "unpatched_reference": {
+      "actual_version": "1.0.0",
+      "base": null,
+      "branch": null,
+      "commit": "c741c161ea8b11aebff0b040eecc67b02c583064",
+      "commits_from_version": [
+        "50146fb3943cc784f38db3342a44dc86f0e9e4d7",
+        "fa56dbbc8b633322b07583f4e7c826c2ba46442e",
+        "705b41c54d655c4342df6c04ac6e760aef5e32d4",
+        "799538d9c3a9de6dd4ad8f442c2fccb0db8b6d33",
+        "b8755840585ca2391bc4137ab10d85d83a5896fe",
+        "672df49705352b91057cbcf0a33835915b1bc1ac",
+        "28a1340de052e3462b8ca3dea444ab6ff0aa4088",
+        "efca6d9a77dabed64c6f7dd15824e4da66eaf093",
+        "b4229353dda7a08e382bc853bba145479beeeba5",
+        "1d94e80c693d728219c5633e353f96a5b42ebfd7",
+        "86ebdf6169cd481b2d3e390c674ae9c91a2227e5",
+        "75994538a035a9e3675f7d612d3a073435d8fd1d",
+        "df892bbae32fe39f811cb912f2885c03d4597c51",
+        "4c25da729aba40f65a1f391fa9a6c94f4bca5d78",
+        "682ff5570570aca7af43826c8cc31a93c375d3a7",
+        "05b1c765230bceabcb6dfcaac4e2fb4abc9c8f9f",
+        "66c24bd9dff7a2f4322087100586b29a040b08dc",
+        "c741c161ea8b11aebff0b040eecc67b02c583064"
+      ],
+      "org": "inveniosoftware",
+      "package": "invenio-sitemap",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-sitemap"
+    }
+  },
+  "status": "skipped"
+}

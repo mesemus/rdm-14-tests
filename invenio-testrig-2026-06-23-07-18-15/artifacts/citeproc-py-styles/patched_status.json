@@ -1,0 +1,105 @@
+{
+  "dependencies": [],
+  "package": {
+    "github_entry": {
+      "_extra": {},
+      "default_branch": null,
+      "exclude": [
+        "invenio-xrootd",
+        "invenio-swh"
+      ],
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "include": [
+        "invenio-.*",
+        "pytest-invenio",
+        "citeproc-py-styles"
+      ],
+      "install": [],
+      "org": "inveniosoftware",
+      "package_map": {},
+      "slow_packages": {
+        "invenio-rdm-records": [
+          "tests/resources/test_iiif_image_api.py",
+          "tests/resources/test_resources_review.py",
+          "tests/services/test_rdm_service.py"
+        ]
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "0.1.5",
+      "base": null,
+      "branch": "v0.1.5",
+      "commit": "6471b7fe62c16b8a251bce438d0797a8b5e3df3b",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "citeproc-py-styles",
+      "pr": null,
+      "pr_info": null,
+      "repo": "citeproc-py-styles"
+    },
+    "unpatched_reference": {
+      "actual_version": "0.1.5",
+      "base": null,
+      "branch": null,
+      "commit": "40da9d7b5006e2989295b4644fbf522923be87e5",
+      "commits_from_version": [
+        "ff7ba4e1b5a4b672ce523884ea68544f4ff445df",
+        "eec69791bbf5c8524eab871c8e29fc34621ca43d",
+        "b9a797a37a91dcec0d07bdddb5b8f701a0c3bca9",
+        "e81fedbb20abba74845c313eaefc833cc70d5eef",
+        "2f5cdd6cbc79edc53d6843a2a8b0426cf1d62924",
+        "cc26b4fc670cb527cb58de0b198a796ef1dd0f1f",
+        "2536f01f6a2104455f687dfa86f10d6baf873672",
+        "bcb34a6fbb9853955adecbe7de515f9847e2598d",
+        "7f5fd0ce137c9855dc850e60f03b2deeb24dda9c",
+        "2753ce9f7b8fd4513361f0d1f01595c7b06ba54d",
+        "ebae3dce0ee20854495341ccc9f97b1ed5f89c90",
+        "7e1f5e1e492aa0e55e8756e6ef79a03d23976981",
+        "b3f40f3ba7ec9108823f48c29edc9206884d347a",
+        "e2d70de62bd6adaa6e0ac4cad273517f76551b45",
+        "d5798b24e970e065de1231dd5fd8f283d349c211",
+        "bba1011f751f6fac6c5a5861a7615833b1c6635c",
+        "3c86199b077a8dc2d87977efc34e04eced4f80e9",
+        "43472430aa6bfd3ad60ff628ca41b1a120942082",
+        "a1e2431f452a7e6bdfc63006452a954b27cc01e8",
+        "5dc5c7813a7d5ecce9b046bfc240a90bcb1e718a",
+        "ff0b65fa500b15f5000cf25db39f0e6cefabffd6",
+        "f3581e0f6e0ba7da31de63b0ef3e40fce1cdc09f",
+        "eb11e707e6d8e803daa6fc26bc41958470b04ea8",
+        "8b2ec89c3ce8283874f6a02eaac6dffe3da51ac8",
+        "e7c7d66f5af938c1ca626f27bd25e7d5d791dc80",
+        "f7241f837b72d21dc1b290ca3cc4f5ce5a72ebc9",
+        "7ee262bfc082d3b75e8110f5d118096145a6ddc5",
+        "3bde6618a96983bc9ebe856877c4ac489427a09b",
+        "6471b7fe62c16b8a251bce438d0797a8b5e3df3b",
+        "490fc6b3a03ccfa80cc1610ff31fd2a05600ef07",
+        "40da9d7b5006e2989295b4644fbf522923be87e5"
+      ],
+      "org": "inveniosoftware",
+      "package": "citeproc-py-styles",
+      "pr": null,
+      "pr_info": null,
+      "repo": "citeproc-py-styles"
+    }
+  },
+  "status": "skipped"
+}

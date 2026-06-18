@@ -1,0 +1,476 @@
+running extract_messages
+extracting messages from invenio_pidstore/__init__.py (encoding="utf-8")
+extracting messages from invenio_pidstore/admin.py (encoding="utf-8")
+extracting messages from invenio_pidstore/cli.py (encoding="utf-8")
+extracting messages from invenio_pidstore/config.py (encoding="utf-8")
+extracting messages from invenio_pidstore/errors.py (encoding="utf-8")
+extracting messages from invenio_pidstore/ext.py (encoding="utf-8")
+extracting messages from invenio_pidstore/fetchers.py (encoding="utf-8")
+extracting messages from invenio_pidstore/minters.py (encoding="utf-8")
+extracting messages from invenio_pidstore/models.py (encoding="utf-8")
+extracting messages from invenio_pidstore/proxies.py (encoding="utf-8")
+extracting messages from invenio_pidstore/resolver.py (encoding="utf-8")
+extracting messages from invenio_pidstore/alembic/734dbec0f3f8_change_datetime_types.py (encoding="utf-8")
+extracting messages from invenio_pidstore/alembic/999c62899c20_create_pidstore_tables.py (encoding="utf-8")
+extracting messages from invenio_pidstore/alembic/f615cee99600_create_pidstore_branch.py (encoding="utf-8")
+extracting messages from invenio_pidstore/providers/__init__.py (encoding="utf-8")
+extracting messages from invenio_pidstore/providers/base.py (encoding="utf-8")
+extracting messages from invenio_pidstore/providers/datacite.py (encoding="utf-8")
+extracting messages from invenio_pidstore/providers/recordid.py (encoding="utf-8")
+extracting messages from invenio_pidstore/providers/recordid_v2.py (encoding="utf-8")
+writing PO template file to /dev/null
+ postgresql Pulling 
+ redis Pulling 
+ b0a0cf830b12 Pulling fs layer 
+ dda3d8fbd5ed Pulling fs layer 
+ 283a477db7bb Pulling fs layer 
+ 91d2729fa4d5 Pulling fs layer 
+ 9739ced65621 Pulling fs layer 
+ ae3bb1b347a4 Pulling fs layer 
+ f8406d9c00ea Pulling fs layer 
+ c199bff16b05 Pulling fs layer 
+ e0d55fdb4d15 Pulling fs layer 
+ c1cb13b19080 Pulling fs layer 
+ 873532e5f8c7 Pulling fs layer 
+ 050d9f8c3b1c Pulling fs layer 
+ 710e142705f8 Pulling fs layer 
+ cb628c265f09 Pulling fs layer 
+ e0d55fdb4d15 Waiting 
+ c1cb13b19080 Waiting 
+ 873532e5f8c7 Waiting 
+ 050d9f8c3b1c Waiting 
+ 710e142705f8 Waiting 
+ cb628c265f09 Waiting 
+ 91d2729fa4d5 Waiting 
+ f8406d9c00ea Waiting 
+ 9739ced65621 Waiting 
+ c199bff16b05 Waiting 
+ ae3bb1b347a4 Waiting 
+ b9136609bef0 Pulling fs layer 
+ a97e73913450 Pulling fs layer 
+ 83bcad862a56 Pulling fs layer 
+ 4ab29a83cab1 Pulling fs layer 
+ c662f114637c Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 7d5f2b031023 Pulling fs layer 
+ b9136609bef0 Waiting 
+ c662f114637c Waiting 
+ a97e73913450 Waiting 
+ 4ab29a83cab1 Waiting 
+ 83bcad862a56 Waiting 
+ 7d5f2b031023 Waiting 
+ dda3d8fbd5ed Download complete 
+ 283a477db7bb Downloading [>                                                  ]  48.49kB/4.533MB
+ b0a0cf830b12 Downloading [>                                                  ]  294.3kB/29.15MB
+ 283a477db7bb Downloading [=============>                                     ]  1.228MB/4.533MB
+ b0a0cf830b12 Downloading [=====>                                             ]  3.243MB/29.15MB
+ 283a477db7bb Verifying Checksum 
+ 283a477db7bb Download complete 
+ 91d2729fa4d5 Downloading [>                                                  ]  15.72kB/1.45MB
+ b0a0cf830b12 Downloading [=====================================>             ]  21.82MB/29.15MB
+ b0a0cf830b12 Verifying Checksum 
+ b0a0cf830b12 Download complete 
+ 91d2729fa4d5 Downloading [==============================>                    ]  884.1kB/1.45MB
+ b0a0cf830b12 Extracting [>                                                  ]  294.9kB/29.15MB
+ 91d2729fa4d5 Verifying Checksum 
+ 91d2729fa4d5 Download complete 
+ b0a0cf830b12 Extracting [===========>                                       ]  6.488MB/29.15MB
+ 9739ced65621 Downloading [>                                                  ]  81.28kB/8.069MB
+ ae3bb1b347a4 Downloading [>                                                  ]  15.72kB/1.196MB
+ b0a0cf830b12 Extracting [=================>                                 ]  10.03MB/29.15MB
+ 9739ced65621 Downloading [==========>                                        ]  1.638MB/8.069MB
+ f8406d9c00ea Downloading [==================================================>]     116B/116B
+ f8406d9c00ea Verifying Checksum 
+ f8406d9c00ea Download complete 
+ ae3bb1b347a4 Downloading [=======================================>           ]  933.2kB/1.196MB
+ 9739ced65621 Verifying Checksum 
+ 9739ced65621 Download complete 
+ ae3bb1b347a4 Verifying Checksum 
+ ae3bb1b347a4 Download complete 
+ b0a0cf830b12 Extracting [=======================>                           ]  13.86MB/29.15MB
+ b0a0cf830b12 Extracting [======================================>            ]  22.41MB/29.15MB
+ c199bff16b05 Verifying Checksum 
+ c199bff16b05 Download complete 
+ c1cb13b19080 Downloading [=================>                                 ]  3.479kB/9.925kB
+ c1cb13b19080 Download complete 
+ e0d55fdb4d15 Downloading [>                                                  ]  538.8kB/109MB
+ b0a0cf830b12 Extracting [==========================================>        ]  24.77MB/29.15MB
+ 873532e5f8c7 Downloading [==================================================>]     128B/128B
+ 873532e5f8c7 Verifying Checksum 
+ 873532e5f8c7 Download complete 
+ e0d55fdb4d15 Downloading [==>                                                ]  5.341MB/109MB
+ b0a0cf830b12 Extracting [===============================================>   ]  27.72MB/29.15MB
+ 050d9f8c3b1c Downloading [==================================================>]     169B/169B
+ 050d9f8c3b1c Verifying Checksum 
+ 050d9f8c3b1c Download complete 
+ e0d55fdb4d15 Downloading [=============>                                     ]  30.41MB/109MB
+ 710e142705f8 Downloading [================================>                  ]  3.479kB/5.421kB
+ 710e142705f8 Downloading [==================================================>]  5.421kB/5.421kB
+ 710e142705f8 Verifying Checksum 
+ 710e142705f8 Download complete 
+ e0d55fdb4d15 Downloading [============================>                      ]  61.92MB/109MB
+ cb628c265f09 Downloading [==================================================>]     184B/184B
+ cb628c265f09 Verifying Checksum 
+ cb628c265f09 Download complete 
+ e0d55fdb4d15 Downloading [===========================================>       ]  95.48MB/109MB
+ e0d55fdb4d15 Verifying Checksum 
+ e0d55fdb4d15 Download complete 
+ b0a0cf830b12 Extracting [================================================>  ]  28.31MB/29.15MB
+ b9136609bef0 Downloading [>                                                  ]  294.3kB/28.24MB
+ a97e73913450 Downloading [==================================================>]  1.101kB/1.101kB
+ a97e73913450 Download complete 
+ b0a0cf830b12 Extracting [==================================================>]  29.15MB/29.15MB
+ b0a0cf830b12 Pull complete 
+ dda3d8fbd5ed Extracting [==================================================>]  1.165kB/1.165kB
+ dda3d8fbd5ed Extracting [==================================================>]  1.165kB/1.165kB
+ b9136609bef0 Downloading [=====>                                             ]  2.949MB/28.24MB
+ 83bcad862a56 Downloading [==================================================>]     875B/875B
+ 83bcad862a56 Verifying Checksum 
+ 83bcad862a56 Download complete 
+ b9136609bef0 Downloading [====================================>              ]  20.64MB/28.24MB
+ b9136609bef0 Verifying Checksum 
+ b9136609bef0 Download complete 
+ 4ab29a83cab1 Downloading [>                                                  ]  163.2kB/15.35MB
+ b9136609bef0 Extracting [>                                                  ]  294.9kB/28.24MB
+ c662f114637c Downloading [==================================================>]      96B/96B
+ c662f114637c Verifying Checksum 
+ c662f114637c Download complete 
+ 4ab29a83cab1 Downloading [=======>                                           ]  2.293MB/15.35MB
+ b9136609bef0 Extracting [=========>                                         ]  5.308MB/28.24MB
+ 4f4fb700ef54 Downloading [==================================================>]      32B/32B
+ 4f4fb700ef54 Download complete 
+ 4ab29a83cab1 Verifying Checksum 
+ 4ab29a83cab1 Download complete 
+ 7d5f2b031023 Downloading [==================================================>]     598B/598B
+ 7d5f2b031023 Verifying Checksum 
+ 7d5f2b031023 Download complete 
+ b9136609bef0 Extracting [================>                                  ]  9.437MB/28.24MB
+ b9136609bef0 Extracting [========================>                          ]  13.86MB/28.24MB
+ b9136609bef0 Extracting [======================================>            ]  21.82MB/28.24MB
+ b9136609bef0 Extracting [==========================================>        ]  23.89MB/28.24MB
+ b9136609bef0 Extracting [===============================================>   ]  26.84MB/28.24MB
+ b9136609bef0 Extracting [================================================>  ]  27.43MB/28.24MB
+ b9136609bef0 Extracting [==================================================>]  28.24MB/28.24MB
+ b9136609bef0 Pull complete 
+ a97e73913450 Extracting [==================================================>]  1.101kB/1.101kB
+ a97e73913450 Extracting [==================================================>]  1.101kB/1.101kB
+ dda3d8fbd5ed Pull complete 
+ 283a477db7bb Extracting [>                                                  ]  65.54kB/4.533MB
+ a97e73913450 Pull complete 
+ 83bcad862a56 Extracting [==================================================>]     875B/875B
+ 83bcad862a56 Extracting [==================================================>]     875B/875B
+ 83bcad862a56 Pull complete 
+ 4ab29a83cab1 Extracting [>                                                  ]  163.8kB/15.35MB
+ 283a477db7bb Extracting [=======================================>           ]  3.604MB/4.533MB
+ 283a477db7bb Extracting [==================================================>]  4.533MB/4.533MB
+ 4ab29a83cab1 Extracting [====================>                              ]  6.226MB/15.35MB
+ 283a477db7bb Pull complete 
+ 91d2729fa4d5 Extracting [=>                                                 ]  32.77kB/1.45MB
+ 91d2729fa4d5 Extracting [==================================================>]   1.45MB/1.45MB
+ 91d2729fa4d5 Pull complete 
+ 9739ced65621 Extracting [>                                                  ]   98.3kB/8.069MB
+ 4ab29a83cab1 Extracting [=========================================>         ]  12.62MB/15.35MB
+ 4ab29a83cab1 Extracting [==================================================>]  15.35MB/15.35MB
+ 4ab29a83cab1 Pull complete 
+ c662f114637c Extracting [==================================================>]      96B/96B
+ c662f114637c Extracting [==================================================>]      96B/96B
+ 9739ced65621 Extracting [====================>                              ]  3.342MB/8.069MB
+ c662f114637c Pull complete 
+ 4f4fb700ef54 Extracting [==================================================>]      32B/32B
+ 4f4fb700ef54 Extracting [==================================================>]      32B/32B
+ 4f4fb700ef54 Pull complete 
+ 7d5f2b031023 Extracting [==================================================>]     598B/598B
+ 7d5f2b031023 Extracting [==================================================>]     598B/598B
+ 7d5f2b031023 Pull complete 
+ redis Pulled 
+ 9739ced65621 Extracting [===================================>               ]    5.8MB/8.069MB
+ 9739ced65621 Extracting [==================================================>]  8.069MB/8.069MB
+ 9739ced65621 Pull complete 
+ ae3bb1b347a4 Extracting [=>                                                 ]  32.77kB/1.196MB
+ ae3bb1b347a4 Extracting [==================================================>]  1.196MB/1.196MB
+ ae3bb1b347a4 Extracting [==================================================>]  1.196MB/1.196MB
+ ae3bb1b347a4 Pull complete 
+ f8406d9c00ea Extracting [==================================================>]     116B/116B
+ f8406d9c00ea Extracting [==================================================>]     116B/116B
+ f8406d9c00ea Pull complete 
+ c199bff16b05 Extracting [==================================================>]  3.145kB/3.145kB
+ c199bff16b05 Extracting [==================================================>]  3.145kB/3.145kB
+ c199bff16b05 Pull complete 
+ e0d55fdb4d15 Extracting [>                                                  ]  557.1kB/109MB
+ e0d55fdb4d15 Extracting [===>                                               ]  7.242MB/109MB
+ e0d55fdb4d15 Extracting [====>                                              ]  10.58MB/109MB
+ e0d55fdb4d15 Extracting [=======>                                           ]  16.15MB/109MB
+ e0d55fdb4d15 Extracting [=========>                                         ]  21.73MB/109MB
+ e0d55fdb4d15 Extracting [============>                                      ]  26.74MB/109MB
+ e0d55fdb4d15 Extracting [================>                                  ]  35.65MB/109MB
+ e0d55fdb4d15 Extracting [====================>                              ]  44.01MB/109MB
+ e0d55fdb4d15 Extracting [=======================>                           ]  51.81MB/109MB
+ e0d55fdb4d15 Extracting [=========================>                         ]  56.26MB/109MB
+ e0d55fdb4d15 Extracting [=============================>                     ]  64.06MB/109MB
+ e0d55fdb4d15 Extracting [=================================>                 ]  73.53MB/109MB
+ e0d55fdb4d15 Extracting [=====================================>             ]  81.33MB/109MB
+ e0d55fdb4d15 Extracting [=========================================>         ]  89.69MB/109MB
+ e0d55fdb4d15 Extracting [==========================================>        ]  93.59MB/109MB
+ e0d55fdb4d15 Extracting [============================================>      ]  97.48MB/109MB
+ e0d55fdb4d15 Extracting [==============================================>    ]  101.4MB/109MB
+ e0d55fdb4d15 Extracting [===============================================>   ]  103.6MB/109MB
+ e0d55fdb4d15 Extracting [================================================>  ]  105.3MB/109MB
+ e0d55fdb4d15 Extracting [=================================================> ]  107.5MB/109MB
+ e0d55fdb4d15 Extracting [==================================================>]    109MB/109MB
+ e0d55fdb4d15 Pull complete 
+ c1cb13b19080 Extracting [==================================================>]  9.925kB/9.925kB
+ c1cb13b19080 Extracting [==================================================>]  9.925kB/9.925kB
+ c1cb13b19080 Pull complete 
+ 873532e5f8c7 Extracting [==================================================>]     128B/128B
+ 873532e5f8c7 Extracting [==================================================>]     128B/128B
+ 873532e5f8c7 Pull complete 
+ 050d9f8c3b1c Extracting [==================================================>]     169B/169B
+ 050d9f8c3b1c Extracting [==================================================>]     169B/169B
+ 050d9f8c3b1c Pull complete 
+ 710e142705f8 Extracting [==================================================>]  5.421kB/5.421kB
+ 710e142705f8 Extracting [==================================================>]  5.421kB/5.421kB
+ 710e142705f8 Pull complete 
+ cb628c265f09 Extracting [==================================================>]     184B/184B
+ cb628c265f09 Extracting [==================================================>]     184B/184B
+ cb628c265f09 Pull complete 
+ postgresql Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-postgresql-1  Started
+::warning file=workdir/tests/invenio-pidstore/original/tests/conftest.py,line=21::@pytest.yield_fixture is deprecated.%0AUse @pytest.fixture instead; they are the same.
+::warning file=workdir/tests/invenio-pidstore/original/tests/conftest.py,line=45::@pytest.yield_fixture is deprecated.%0AUse @pytest.fixture instead; they are the same.
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original
+configfile: setup.cfg
+testpaths: docs, tests, invenio_pidstore
+plugins: flask-1.3.0, black-0.6.0, github-actions-annotate-failures-0.4.1, pycodestyle-2.5.0, cov-7.1.0, invenio-4.0.1, pydocstyle-2.4.0, isort-4.0.0
+collected 127 items
+::warning file=workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py,line=2::pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+::warning file=workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/pkg_resources/__init__.py,line=3148::Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.%0AImplementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+::warning file=workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py,line=2::Deprecated call to `pkg_resources.declare_namespace('flask_admin.contrib')`.%0AImplementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+::warning file=workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/pkg_resources/__init__.py,line=2560::Deprecated call to `pkg_resources.declare_namespace('flask_admin')`.%0AImplementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+
+docs/conf.py ...                                                         [  2%]
+tests/conftest.py ...                                                    [  4%]
+tests/test_admin.py .....                                                [  8%]
+tests/test_cli.py .....                                                  [ 12%]
+tests/test_ext.py .......                                                [ 18%]
+tests/test_fetchers.py .....                                             [ 22%]
+tests/test_invenio_pidstore.py ...s............                          [ 34%]
+tests/test_minters.py .....                                              [ 38%]
+tests/test_providers.py ............                                     [ 48%]
+tests/test_recordidentifier.py ...                                       [ 50%]
+tests/test_resolver.py .....                                             [ 54%]
+invenio_pidstore/__init__.py ....                                        [ 57%]
+invenio_pidstore/admin.py ...                                            [ 59%]
+invenio_pidstore/alembic/734dbec0f3f8_change_datetime_types.py ...       [ 62%]
+invenio_pidstore/alembic/999c62899c20_create_pidstore_tables.py ...      [ 64%]
+invenio_pidstore/alembic/f615cee99600_create_pidstore_branch.py ...      [ 66%]
+invenio_pidstore/cli.py ...                                              [ 69%]
+invenio_pidstore/config.py ...                                           [ 71%]
+invenio_pidstore/errors.py ...                                           [ 74%]
+invenio_pidstore/ext.py ...                                              [ 76%]
+invenio_pidstore/fetchers.py ...                                         [ 78%]
+invenio_pidstore/minters.py ...                                          [ 81%]
+invenio_pidstore/models.py ...                                           [ 83%]
+invenio_pidstore/providers/__init__.py ...                               [ 85%]
+invenio_pidstore/providers/base.py ...                                   [ 88%]
+invenio_pidstore/providers/datacite.py ...                               [ 90%]
+invenio_pidstore/providers/recordid.py ...                               [ 92%]
+invenio_pidstore/providers/recordid_v2.py ...                            [ 95%]
+invenio_pidstore/proxies.py ...                                          [ 97%]
+invenio_pidstore/resolver.py ...                                         [100%]
+
+=============================== warnings summary ===============================
+tests/conftest.py:21
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/tests/conftest.py:21: PytestDeprecationWarning: @pytest.yield_fixture is deprecated.
+  Use @pytest.fixture instead; they are the same.
+    @pytest.yield_fixture()
+
+tests/conftest.py:45
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/tests/conftest.py:45: PytestDeprecationWarning: @pytest.yield_fixture is deprecated.
+  Use @pytest.fixture instead; they are the same.
+    @pytest.yield_fixture()
+
+.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py:2
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+    __import__('pkg_resources').declare_namespace(__name__)
+
+.venv/lib/python3.14/site-packages/pkg_resources/__init__.py:3148
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/pkg_resources/__init__.py:3148: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    declare_namespace(pkg)
+
+.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py:2
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py:2: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('flask_admin.contrib')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    __import__('pkg_resources').declare_namespace(__name__)
+
+.venv/lib/python3.14/site-packages/pkg_resources/__init__.py:2560
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/pkg_resources/__init__.py:2560: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('flask_admin')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    declare_namespace(parent)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+
+Name                                                              Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------------------------------
+invenio_pidstore/__init__.py                                          4      0   100%
+invenio_pidstore/admin.py                                            30      0   100%
+invenio_pidstore/alembic/734dbec0f3f8_change_datetime_types.py       13      6    54%   21-23, 28-30
+invenio_pidstore/alembic/999c62899c20_create_pidstore_tables.py      21     12    43%   19-44, 59-64
+invenio_pidstore/alembic/f615cee99600_create_pidstore_branch.py       8      0   100%
+invenio_pidstore/cli.py                                              73      0   100%
+invenio_pidstore/config.py                                            5      0   100%
+invenio_pidstore/errors.py                                           25      0   100%
+invenio_pidstore/ext.py                                              60      1    98%   140
+invenio_pidstore/fetchers.py                                         13      0   100%
+invenio_pidstore/minters.py                                          16      0   100%
+invenio_pidstore/models.py                                          246      0   100%
+invenio_pidstore/providers/__init__.py                                0      0   100%
+invenio_pidstore/providers/base.py                                   31      0   100%
+invenio_pidstore/providers/datacite.py                               94      0   100%
+invenio_pidstore/providers/recordid.py                               18      0   100%
+invenio_pidstore/providers/recordid_v2.py                            32      0   100%
+invenio_pidstore/proxies.py                                           4      0   100%
+invenio_pidstore/resolver.py                                         29      2    93%   59-60
+-----------------------------------------------------------------------------------------------
+TOTAL                                                               722     21    97%
+================= 126 passed, 1 skipped, 6 warnings in 14.06s ==================
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b9b24d0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b523a60>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5715d0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5732e0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b419b70>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b45bf10>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b41ac50>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5ca020>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b573a60>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b571120>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5cab60>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5cb3d0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b41ae30>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70cbe44f0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70cc85b70>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70cbe74c0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b6e18a0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b6e1300>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5209a0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b6e3e20>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5cad40>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5f36a0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b41b970>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b459b70>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b4b1990>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b4b3b50>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b4edd50>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b45a200>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5f2e30>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5726b0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5f1c60>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5f2c50>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5f16c0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5f3010>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5ca3e0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b459210>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b4b17b0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5224d0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-pidstore/original/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fc70b5204f0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

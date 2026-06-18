@@ -1,0 +1,363 @@
+ postgresql Pulling 
+ rabbitmq Pulling 
+ opensearch Pulling 
+ redis Pulling 
+ redis Pulled 
+ rabbitmq Pulled 
+ opensearch Pulled 
+ postgresql Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched
+configfile: setup.cfg
+testpaths: tests, invenio_records
+plugins: black-ng-0.4.1, flask-1.3.0, github-actions-annotate-failures-0.4.2, mock-3.15.1, pycodestyle-2.5.0, cov-7.1.0, invenio-4.0.1, pydocstyle-2.4.0, isort-4.0.0
+collected 243 items
+tests/conftest.py ...                                                    [  1%]
+tests/demo/__init__.py ...                                               [  2%]
+tests/demo/json_resolver.py ...                                          [  3%]
+tests/models.py ...                                                      [  4%]
+tests/test_alembic.py ...                                                [  6%]
+tests/test_api.py 
+                                    [ 13%]
+tests/test_api_dumpers.py 
+                                       [ 17%]
+tests/test_custom_db.py 
+                                              [ 18%]
+tests/test_dictutils.py ......                                           [ 20%]
+tests/test_encoder.py 
+::error file=workdir/tests/invenio-records/patched/tests/test_encoder.py,line=89::test_encoding%0A%0AAssertionError: assert '2020-09-03' == datetime.date(2020, 9, 3)
+F
+::error file=workdir/tests/invenio-records/patched/tests/test_encoder.py,line=113::test_encoding_with_versioning%0A%0ATypeError: can only concatenate str (not "datetime.timedelta") to str
+F
+::error file=workdir/tests/invenio-records/patched/tests/test_encoder.py,line=145::test_encoding_with_schema%0A%0ATypeError: can only concatenate str (not "datetime.timedelta") to str
+F
+                                            [ 23%]
+tests/test_field_model.py 
+                                            [ 25%]
+tests/test_invenio_records.py 
+                                      [ 27%]
+tests/test_relations_field.py 
+                                        [ 28%]
+tests/test_relations_modelfield.py 
+                                   [ 29%]
+tests/test_relations_systemfield.py 
+                         [ 34%]
+tests/test_resolver.py 
+                                          [ 37%]
+tests/test_signals.py 
+                                               [ 39%]
+tests/test_systemfields.py 
+                   [ 50%]
+tests/test_systemfields_relatedmodelfield.py 
+                  [ 54%]
+invenio_records/__init__.py 
+                                         [ 56%]
+invenio_records/admin.py ...                                             [ 57%]
+invenio_records/alembic/07fb52561c5c_alter_column_from_json_to_jsonb.py . [ 58%]
+                                                                       [ 58%]
+invenio_records/alembic/1095cdf9f350_create_records_branch.py ...        [ 60%]
+invenio_records/alembic/428b919be0ea_alter_column_from_json_to_jsonb_for_version.py . [ 60%]
+                                                                       [ 61%]
+invenio_records/alembic/66db9c49c699_change_datetime_types.py ...        [ 62%]
+invenio_records/alembic/862037093962_create_records_tables.py ...        [ 63%]
+invenio_records/api.py ....                                              [ 65%]
+invenio_records/config.py ...                                            [ 66%]
+invenio_records/dictutils.py ...                                         [ 67%]
+invenio_records/dumpers/__init__.py ...                                  [ 69%]
+invenio_records/dumpers/base.py ...                                      [ 70%]
+invenio_records/dumpers/indexedat.py ...                                 [ 71%]
+invenio_records/dumpers/relations.py ...                                 [ 72%]
+invenio_records/dumpers/search.py ...                                    [ 74%]
+invenio_records/errors.py ...                                            [ 75%]
+invenio_records/ext.py ...                                               [ 76%]
+invenio_records/extensions.py ...                                        [ 77%]
+invenio_records/models.py ...                                            [ 79%]
+invenio_records/patch_info.py ...                                        [ 80%]
+invenio_records/resolver.py ...                                          [ 81%]
+invenio_records/signals.py ...                                           [ 82%]
+invenio_records/systemfields/__init__.py ...                             [ 83%]
+invenio_records/systemfields/base.py ...                                 [ 85%]
+invenio_records/systemfields/constant.py ...                             [ 86%]
+invenio_records/systemfields/dict.py ...                                 [ 87%]
+invenio_records/systemfields/model.py ...                                [ 88%]
+invenio_records/systemfields/relatedmodelfield.py ...                    [ 90%]
+invenio_records/systemfields/relations/__init__.py ...                   [ 91%]
+invenio_records/systemfields/relations/errors.py ...                     [ 92%]
+invenio_records/systemfields/relations/field.py ...                      [ 93%]
+invenio_records/systemfields/relations/mapping.py ...                    [ 95%]
+invenio_records/systemfields/relations/modelrelations.py ...             [ 96%]
+invenio_records/systemfields/relations/relations.py ...                  [ 97%]
+invenio_records/systemfields/relations/results.py ...                    [ 98%]
+invenio_records/validators.py ...                                        [100%]
+=================================== FAILURES ===================================
+________________________________ test_encoding _________________________________
+testapp = <Flask 'invenio'>
+db = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+record_cls = <class 'invenio_records.api.Record'>
+testdate = datetime.date(2020, 9, 3), testdatestr = '2020-09-03'
+    def test_encoding(testapp, db, record_cls, testdate, testdatestr):
+        """Test encoding/decoding in custom classes."""
+        # Create a record with a Python date inside (record_cls has an encoder
+        # which will encode/decode the "date" field if present)
+        data = {"title": "Title", "nested": {"date": testdate}}
+        rec = record_cls.create(data)
+        db.session.commit()
+        # Record and data should still hold a python date
+>       assert data["nested"]["date"] == testdate
+E       AssertionError: assert '2020-09-03' == datetime.date(2020, 9, 3)
+tests/test_encoder.py:89: AssertionError
+________________________ test_encoding_with_versioning _________________________
+testapp = <Flask 'invenio'>
+database = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+record_cls = <class 'invenio_records.api.Record'>
+testdate = datetime.date(2020, 9, 3)
+    def test_encoding_with_versioning(testapp, database, record_cls, testdate):
+        """Test reverting a revision."""
+        db = database
+        # Create a record and a new revision
+        rec = record_cls.create({"title": "Title", "nested": {"date": testdate}})
+        db.session.commit()
+        # Change record (making a new revision)
+>       newdate = rec["nested"]["date"] + timedelta(days=1)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: can only concatenate str (not "datetime.timedelta") to str
+tests/test_encoder.py:113: TypeError
+__________________________ test_encoding_with_schema ___________________________
+testapp = <Flask 'invenio'>
+database = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+record_cls = <class 'invenio_records.api.Record'>
+testdate = datetime.date(2020, 9, 3)
+schema = {'properties': {'nested': {'properties': {'date': {'type': 'string'}}, 'type': 'object'}, 'title': {'type': 'string'}}, 'type': 'object'}
+    def test_encoding_with_schema(testapp, database, record_cls, testdate, schema):
+        """Test that schema validation works on JSON, not on dict."""
+        db = database
+        # Create a record
+        rec = record_cls.create(
+            {
+                "$schema": schema,
+                "title": "Title",
+                "nested": {"date": testdate},
+            }
+        )
+        db.session.commit()
+        # No assertion: because JSONSchema validation will raise an Exception
+        # if it fails to operate the date
+        # Try on record update as well (since commit() also validates)
+>       newdate = rec["nested"]["date"] + timedelta(days=1)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: can only concatenate str (not "datetime.timedelta") to str
+tests/test_encoder.py:145: TypeError
+=============================== warnings summary ===============================
+venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py:2
+    __import__('pkg_resources').declare_namespace(__name__)
+venv/lib/python3.14/site-packages/pkg_resources/__init__.py:3148
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    declare_namespace(pkg)
+venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py:2
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    __import__('pkg_resources').declare_namespace(__name__)
+venv/lib/python3.14/site-packages/pkg_resources/__init__.py:2560
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    declare_namespace(parent)
+    self.init_app(app)
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/invenio_records/api.py:330: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+tests/test_api.py::test_get_records
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api.py:36: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/invenio_records/api.py:491: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+tests/test_api.py::test_get_records
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api.py:45: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api.py::test_revision_id_created_updated_properties
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api.py:62: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/invenio_records/api.py:438: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+tests/test_api.py::test_delete
+tests/test_api.py::test_revisions
+tests/test_signals.py::test_signals
+tests/test_signals.py::test_signals_disabled
+tests/test_systemfields.py::test_extension_revert
+invenio_records/__init__.py::invenio_records
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/invenio_records/api.py:550: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:617: SAWarning: nested transaction already deassociated from connection
+    session.rollback()
+tests/test_api.py::test_undelete_no_get
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api.py:492: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api.py::test_undelete_no_get
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api.py:494: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api.py::test_undelete_no_get
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api.py:497: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api.py::test_undelete_with_get
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api.py:504: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api.py::test_undelete_with_get
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api.py:506: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api.py::test_undelete_with_get
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api.py:510: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api_dumpers.py::test_esdumper_with_model
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api_dumpers.py:83: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api_dumpers.py::test_esdumper_with_extensions
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api_dumpers.py:117: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api_dumpers.py::test_relations_dumper
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api_dumpers.py:174: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api_dumpers.py::test_relations_dumper
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api_dumpers.py:183: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_api_dumpers.py::test_indexedtime_dumper
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_api_dumpers.py:233: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_encoder.py::test_encoding
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_encoder.py:86: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_invenio_records.py::test_db
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_invenio_records.py:65: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_invenio_records.py::test_db
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_invenio_records.py:81: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_invenio_records.py::test_db
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_invenio_records.py:117: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_invenio_records.py::test_db
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_invenio_records.py:132: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/conftest.py:108: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_relations_field.py::test_multirelations_field
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_relations_field.py:193: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_relations_systemfield.py::test_relations_field_pk_relation
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_relations_systemfield.py:109: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_relations_systemfield.py::test_relations_field_pk_list_relation
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_relations_systemfield.py:226: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_relations_systemfield.py::test_relations_field_pk_list_relation_of_objects
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_relations_systemfield.py:458: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_relations_systemfield.py::test_relations_field_pk_nested_list_of_objects_w_related_field
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_relations_systemfield.py:778: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_relations_systemfield.py::test_relations_field_pk_nested_list_of_objects_wo_related_field
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_relations_systemfield.py:986: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_resolver.py::test_invenio_refresolver_with_local_store
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_resolver.py:57: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_systemfields.py::test_constant_field_deletion
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_systemfields.py:157: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_systemfields.py::test_constant_field_deletion
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_systemfields.py:159: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_systemfields.py::test_constant_field_undelete
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_systemfields.py:167: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_systemfields.py::test_constant_field_undelete
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_systemfields.py:169: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_systemfields.py::test_extension_delete
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_systemfields.py:304: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_systemfields.py::test_extension_undelete
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_systemfields.py:319: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+tests/test_systemfields.py::test_extension_undelete
+  /home/runner/work/rdm-14-tests/rdm-14-tests/workdir/tests/invenio-records/patched/tests/test_systemfields.py:321: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+invenio_records/__init__.py::invenio_records
+    warnings.warn(
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                                                                  Stmts   Miss  Cover   Missing
+invenio_records/__init__.py                                                               4      0   100%
+invenio_records/admin.py                                                                 37     12    68%   56-70
+invenio_records/alembic/07fb52561c5c_alter_column_from_json_to_jsonb.py                  12      0   100%
+invenio_records/alembic/66db9c49c699_change_datetime_types.py                            13      0   100%
+invenio_records/alembic/428b919be0ea_alter_column_from_json_to_jsonb_for_version.py      12      0   100%
+invenio_records/alembic/1095cdf9f350_create_records_branch.py                             8      0   100%
+invenio_records/alembic/862037093962_create_records_tables.py                            19      0   100%
+invenio_records/api.py                                                                  233      8    97%   103, 235-239, 248-252, 285-289, 519
+invenio_records/config.py                                                                 6      0   100%
+invenio_records/dictutils.py                                                             87      7    92%   50, 58, 126, 162, 165-167
+invenio_records/dumpers/__init__.py                                                       3      0   100%
+invenio_records/dumpers/base.py                                                           7      1    86%   44
+invenio_records/dumpers/indexedat.py                                                      9      0   100%
+invenio_records/dumpers/relations.py                                                     18      3    83%   30-31, 36
+invenio_records/dumpers/search.py                                                       112      7    94%   64-65, 70, 81, 101, 112, 119
+invenio_records/errors.py                                                                 3      0   100%
+invenio_records/ext.py                                                                   49      1    98%   101
+invenio_records/extensions.py                                                            23      0   100%
+invenio_records/models.py                                                                48      3    94%   71-73
+invenio_records/patch_info.py                                                             6      2    67%   2314-2316
+invenio_records/resolver.py                                                              16      1    94%   20
+invenio_records/signals.py                                                               18      0   100%
+invenio_records/systemfields/__init__.py                                                  7      0   100%
+invenio_records/systemfields/base.py                                                    143      9    94%   73, 269-273, 283-287, 297-301, 311-315
+invenio_records/systemfields/constant.py                                                 25      0   100%
+invenio_records/systemfields/dict.py                                                     15      0   100%
+invenio_records/systemfields/model.py                                                    32      0   100%
+invenio_records/systemfields/relatedmodelfield.py                                        42      0   100%
+invenio_records/systemfields/relations/__init__.py                                        7      0   100%
+invenio_records/systemfields/relations/errors.py                                          4      0   100%
+invenio_records/systemfields/relations/field.py                                          64      3    95%   29, 33, 37
+invenio_records/systemfields/relations/mapping.py                                        34      3    91%   25, 36, 44
+invenio_records/systemfields/relations/modelrelations.py                                 39      0   100%
+invenio_records/systemfields/relations/relations.py                                     175     22    87%   59, 80, 97, 104, 118-123, 170-171, 205-210, 213-214, 249, 319
+invenio_records/systemfields/relations/results.py                                       181     13    93%   54, 83-84, 98, 107, 121, 159, 161, 224, 228, 244-245, 256
+invenio_records/validators.py                                                            15      0   100%
+TOTAL                                                                                  1526     95    94%
+=========================== short test summary info ============================
+FAILED tests/test_encoder.py::test_encoding - AssertionError: assert '2020-09-03' == datetime.date(2020, 9, 3)
+FAILED tests/test_encoder.py::test_encoding_with_versioning - TypeError: can only concatenate str (not "datetime.timedelta") to str
+FAILED tests/test_encoder.py::test_encoding_with_schema - TypeError: can only concatenate str (not "datetime.timedelta") to str
+================= 3 failed, 240 passed, 169 warnings in 21.90s =================
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

@@ -1,0 +1,128 @@
+{
+  "dependencies": [],
+  "package": {
+    "github_entry": {
+      "_extra": {},
+      "default_branch": null,
+      "exclude": [
+        "invenio-xrootd",
+        "invenio-swh"
+      ],
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "include": [
+        "invenio-.*",
+        "pytest-invenio",
+        "citeproc-py-styles"
+      ],
+      "install": [],
+      "org": "inveniosoftware",
+      "package_map": {},
+      "slow_packages": {
+        "invenio-rdm-records": [
+          "tests/resources/test_iiif_image_api.py",
+          "tests/resources/test_resources_review.py",
+          "tests/services/test_rdm_service.py"
+        ]
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "3.0.0",
+      "base": null,
+      "branch": "v3.0.0",
+      "commit": "1a9129abd25e5d2fd3cf85ad24b0534689aef996",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-cache",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-cache"
+    },
+    "unpatched_reference": {
+      "actual_version": "3.0.0",
+      "base": null,
+      "branch": null,
+      "commit": "44a390e90c8624c272e659f05803efe66c323c98",
+      "commits_from_version": [
+        "6c41128370986f13200279639810d1ce1a3f24fe",
+        "e8f19b6e81ca4c6a869e53801fddc975211a4ddf",
+        "a325b5fecb4bb8f3d481a7c3ad62b8acef2757b8",
+        "c5aaa6eea3bc4bb4977f5301de17fe04d29fa9f6",
+        "aecb9a559e25432694e589fcc98d761fd7717319",
+        "69333d4f1fdfca20c84a01ee279f05407623db51",
+        "bdf26c2aafa4bdd7fb376c6dec1422ec201b1401",
+        "148f2a1dffc805be11c8195ae891bae5cee78394",
+        "68788dd4b2cbafac6ebe2e63881c7ac81e2e2b2e",
+        "e5b41e2f4a42e54a2000a4eea45ae9f15b8b9247",
+        "fea04223e6ebbc3f0e59650b55bb7b5dca47d4e1",
+        "2d381ca73e5a044db23c671f4b9bfa64936376b3",
+        "6be3c96e9a71ec53505fb0241e14f38a86af2622",
+        "2f0e1c8f9b1cf2b2dfb338d82b77f6287a367a74",
+        "da3c15f7daaf23647ad13f685e3bc676fcfe138a",
+        "052ab2c4f119af4a5a4d07906a067d4019f6be40",
+        "4e43d77219113c75acef68eb46876ad8aa0ad497",
+        "fb29530e5cd93a40cf389752777e6a71e0faa118",
+        "7d9025a5a6ef8939395a1da43e64b3d31294de7c",
+        "956bd3df883ae13b47121e0cabb810bfa93befb5",
+        "50879bbf441718eebb81a0356852b76590166824",
+        "ae33b0a75e993e4773cfc79626ec4f65e617d16a",
+        "8f15b7eb54e78b9f78acd8d537a0b580304c79c4",
+        "e391b1ff85877a455a1a3d780d773bf6f16f457c",
+        "16b29ee1837c23b862fcd9537caaa1774bc3952e",
+        "8b1ebea8800a501765731de8373ee983777c0d7b",
+        "b02d0d884ebd55d8d09ad4e336d0dcaaef6af50d",
+        "02c06fa898d0c3faae67ca6ed8d44e72c7a2f72a",
+        "d7e6e70dd2df0a4be256d962e057781cf8aa8595",
+        "cf8602cf38f81b44f9b848cdd017fab64750a3c3",
+        "65ed09cc3b0ed164df8a7e6b5ee513efaa5115b6",
+        "d1f3b16f2327351ba12dd70b72825ea1b9dcfc4a",
+        "71c3542a5761d698446b78f445f49efe582e528f",
+        "9998367e6da269d7b09af3a9da2828cd1e39941e",
+        "aebb80c5a788fb9106e86211d828964e73127803",
+        "c2e2454e5d5e18c39eb07d3feedc91f50b2ed091",
+        "f130ed34ee77796898bc1f2de420907bd1d69385",
+        "7e25312fc4c72604dee514db5c77c3a925069b46",
+        "535213876bbe81de3ededc8e0ef876b12aa38030",
+        "ec531495e557379456a9fd8e5f95f54cfbb827ae",
+        "1eab2d01533680a6e8997c4dd2ed766e5b3b4490",
+        "cd097f03bc63f8f5d4e1c45ef60e3189be7f3e8a",
+        "7a2f6cfe86cd555260b6460bb943fc2ccb697e7c",
+        "08aada89a74827f9cf65a5e8dc817b46996ec166",
+        "b22ed53ac73d49bc2f81cd392cf84f7dec84f046",
+        "476831a67d84f821aec27dd5395890a9c02c325c",
+        "71e1331c02c4c037552f59b861a2cfa79da7f251",
+        "0e5421fbf2d3a705c1a092099c62fc2b0b82a0a8",
+        "471759b3bc8394127b6f2c3453540ada31d3d5fb",
+        "ff3efca759d41b26c9179f7355dc20a419de2412",
+        "ec603ea78c37ae4105f5299903e0d378eab613de",
+        "1a9129abd25e5d2fd3cf85ad24b0534689aef996",
+        "e010ff8b8b116f8b9a94011606cdae91a02249e0",
+        "44a390e90c8624c272e659f05803efe66c323c98"
+      ],
+      "org": "inveniosoftware",
+      "package": "invenio-cache",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-cache"
+    }
+  },
+  "status": "success"
+}
